@@ -1,4 +1,4 @@
-# OpenCore 0.6.3 - VMware Workstation 16 - AMD Ryzen
+# OpenCore 0.6.4 - VMware Workstation 16 - AMD Ryzen
 Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
 ![Alt text](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD/blob/main/images/macos.jpg?raw=true "VMware screenshot")
@@ -49,10 +49,11 @@ Open VMware Workstation and create a new VM
 * After the reboot you will see that the VM is booting into the OpenCore menu
 * Select **Install macOS Big Sur (external)** | or Beta if you are installing macOS 11.1
 After that is a "normal" installation of a macOS with OpenCore, you need to create a new partition and install macOS
+
 NOTE: The installation require a lot of reboot so don't panic :)
 
 ### Post-installation
-After the complete installation of macOS there are some changes to do
+After the complete installation of macOS there are some changes to do:
 **EFI FOLDER**
 * Copy the EFI folder of the USB into the EFI partition of the VM
 * Download the MountEFI software and mount the partition of the USB and the macOS Disk
