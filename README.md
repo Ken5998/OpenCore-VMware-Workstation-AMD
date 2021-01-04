@@ -34,7 +34,9 @@ You can use this tool: https://github.com/corpnewt/MountEFI
 
 ### Pre-installion (Windows)
 Close VMware Workstation
+
 Download the Unlocker and run win-install.cmd as Admin
+
 Open VMware Workstation and create a new VM
 * I will install the operating system later
 * Select **Apple Mac OS X** -> macOS 11.0 or macOS 11.1
@@ -78,6 +80,7 @@ Select the VM and near the Power button select Power On to Firmware from the dro
 * Select **OpenCore** and boot to macOS
 
 **VMware Tools**
+
 Now if you want you can install the VMware Tools to resize correctly the VM and to enable the drag&drop from the VM to the host and viceversa
 * The VMware tools are inside the Unlocker folder under tools -> darwin.iso
 
