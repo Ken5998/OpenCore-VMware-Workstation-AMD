@@ -30,7 +30,7 @@ sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createi
 
 ### EFI partition
 You can use this tool: https://github.com/corpnewt/MountEFI
-Just copy the EFI folder into the EFI partition that you have mounted
+* Just copy the EFI folder into the EFI partition that you have mounted
 
 ### Pre-installion (Windows)
 Close VMware Workstation
@@ -48,6 +48,7 @@ Open VMware Workstation and create a new VM
 * On the VM "bios" select **Reset the system**
 * After the reboot you will see that the VM is booting into the OpenCore menu
 * Select **Install macOS Big Sur (external)** | or Beta if you are installing macOS 11.1
+
 After that is a "normal" installation of a macOS with OpenCore, you need to create a new partition and install macOS
 
 NOTE: The installation require a lot of reboot so don't panic :)
@@ -62,6 +63,7 @@ After the complete installation of macOS there are some changes to do:
 After that **eject** the USB and shutdown the VM.
 
 **OpenCore entry into the VM BIOS**
+
 Select the VM and near the Power button select Power On to Firmware from the dropdown list
 * Select **Enter setup**
 * Configure boot options
@@ -80,6 +82,14 @@ Now if you want you can install the VMware Tools to resize correctly the VM and 
 * The VMware tools are inside the Unlocker folder under tools -> darwin.iso
 
 **Generate new SMBIOS info with OpenCore Configurator or something else :)**
+
+### FIX
+**AUDIO**
+* If exists AppleALC.kext in your EFI folder delete it.
+* Download and install VoodooHDA OC from: https://github.com/chris1111/VoodooHDA-OC
+* Reboot the system
+* Select **SPDIF-out** from the audio outputs
+
 
 ### Credits
 - [AlGrey](https://github.com/AlGreyy) for creating the patches.
