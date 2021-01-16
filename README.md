@@ -16,7 +16,7 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
 
 ## Method 1
-* Download the pre-build VMDK for the installer of macOS Big Sur 11.1 from here: https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing
+Download the pre-build VMDK for the installer of macOS Big Sur 11.1 from here: [VMDK file](https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing)
  
 * Close VMware Workstation
 * Download the Unlocker and run win-install.cmd as Admin
@@ -28,7 +28,7 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 * Finish 
 * After that modify the VM and attach the downloaded VMDK
 
-* Now start the VM, install macOS and continue with the Post-installation :)
+* Now start the VM, install macOS and continue with the [Post-installation](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD#post-installation) :)
 
 ## Method 2
 ### First of all you need to prepare the USB that we will use to install macOS on VMware
@@ -47,7 +47,7 @@ sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createi
 ```
 
 ### EFI partition
-You can use this tool: https://github.com/corpnewt/MountEFI
+You can use this tool: [MountEFI](https://github.com/corpnewt/MountEFI)
 * Just copy the EFI folder into the EFI partition that you have mounted
 
 ### Pre-installion (Windows)
