@@ -12,7 +12,7 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 * USB 16GB for the #Method 2
 * Pre-build VMDK (macOS Big Sur 11.1) for the #Method 1
 * VMware Workstation 16 (Player and Workstation 15 should also work) 
-* Unlocker for VMware -> https://github.com/BDisp/unlocker
+* Unlocker for VMware -> [unlocker](https://github.com/BDisp/unlocker)
 
 
 ## Method 1
@@ -74,9 +74,11 @@ NOTE: The installation require a lot of reboot so don't panic :)
 
 ## Post-installation
 After the complete installation of macOS there are some changes to do:
+
 **EFI FOLDER**
-* Copy the EFI folder of the USB into the EFI partition of the VM
-* Download the MountEFI software and mount the partition of the USB and the macOS Disk
+* Download the EFI folder from the [releases](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD/releases) page
+* Copy the folder of the USB into the EFI partition of the VM
+* Download the [MountEFI](https://github.com/corpnewt/MountEFI) software and mount the partition of the USB and the macOS Disk
 * Replace the content of the macOS disk with the USB EFI content
 
 After that **eject** the USB and shutdown the VM.
@@ -106,7 +108,7 @@ Now if you want you can install the VMware Tools to resize correctly the VM and 
 ## FIX
 **AUDIO**
 * If exists AppleALC.kext in your EFI folder delete it.
-* Download and install VoodooHDA OC from: https://github.com/chris1111/VoodooHDA-OC
+* Download and install VoodooHDA OC from: [VoodooHDA OC](https://github.com/chris1111/VoodooHDA-OC)
 * Reboot the system
 * Select **SPDIF-out** from the audio outputs
 
