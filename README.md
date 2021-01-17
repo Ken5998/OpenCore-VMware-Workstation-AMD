@@ -1,4 +1,4 @@
-# OpenCore 0.6.4 - VMware Workstation 16 - AMD Ryzen
+# OpenCore 0.6.5 - VMware Workstation 16 - AMD Ryzen
 Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
 ![Alt text](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD/blob/main/images/macos.jpg?raw=true "VMware screenshot")
