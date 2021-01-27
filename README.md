@@ -85,16 +85,16 @@ After that **eject** the USB and shutdown the VM.
 
 **OpenCore entry into the VM BIOS**
 
-Select the VM and near the Power button select Power On to Firmware from the dropdown list
+Select the VM and near the Power button select **Power On to Firmware** from the dropdown list
 * Select **Enter setup**
 * Configure boot options
-* Delete boot option -> remove OpenCore (this is the OpenCore from the USB)
+* Delete boot option -> remove OpenCore (this is the OpenCore from the USB or VMDK installer)
 * Add boot option -> search for **EFI, [PciRoot...** and select it
 * Select **<EFI>** -> **<BOOT>** -> **BOOTx64.efi**
 * Input the description -> insert something like OpenCore AMD or just Opencore
 * Commit changes and exit
 * Select **Configure boot options**
-* Change boot order -> set the OpenCore entry at first position, the **Commit changes and exit**
+* Change boot order -> set the OpenCore entry at first position, then **Commit changes and exit**
 * Exit the Boot Maintenance Manager
 * Select **OpenCore** and boot to macOS
 
