@@ -19,6 +19,8 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 ### Download the pre-build VMDK for the installer of macOS Big Sur 11.2.2 or 11.1 from here: 
 [Big Sur 11.2.2 - OC 0.6.7](https://drive.google.com/file/d/1W7-wdEgWot7Ztqndl89rpyL3EDaHlBGg/view?usp=sharing)
 
+[Alternative link - 11.2.2](https://1fichier.com/?oozi0qiw87hwng2kxlfu)
+
 [Big Sur 11.1 - OC 0.6.4](https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing)
 
 [Alternative link - 11.1](https://1fichier.com/?latap9wd4snffk0h4yon)
@@ -32,6 +34,8 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 - I created a disk size of 200GB (reccomended is 80GB)
 - Finish 
 - After that modify the VM and attach the downloaded VMDK
+
+- (Always in the VM settings, select the Hard Disk (es. 200GB) -> Advanced -> Virtual Device Node and put it after the installer | If the installer is SATA 0:2 put the Hard Disk as SATA 0:3)
 
 - Now start the VM, install macOS and continue with the [Post-installation](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD#post-installation) :)
 
