@@ -1,7 +1,22 @@
 # OpenCore 0.6.7 - VMware Workstation 16 - AMD Ryzen
+<h1 align="center">
+	<img
+    	width="200"
+        alt="OpenCore"
+        src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615566933/opencore_vgx0qo.png">
+	<img
+		width="180"
+		alt="VMware"
+		src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615566933/vmware_lvynw7.png">
+	<img
+		width="300"
+		alt="Ryzen"
+		src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615566933/ryzen_np52wz.svg">     
+</h1>
+
 Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
-![Alt text](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD/blob/main/images/macos.jpg?raw=true "VMware screenshot")
+![Alt text](https://res.cloudinary.com/kasumovic-ch/image/upload/v1615567030/macos_mnmka0.jpg "VMware screenshot")
 
 **The VM is succesfully installed and tested on 2 different cpus/systems:**
 * **Ryzen 9 3900X** -> VM has 6 core CPU and 12GB RAM
@@ -17,27 +32,23 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
 ## Method 1
 ### Download the pre-build VMDK for the installer of macOS Big Sur 11.2.2 or 11.1 from here: 
-[Big Sur 11.2.2 - OC 0.6.7](https://drive.google.com/file/d/1W7-wdEgWot7Ztqndl89rpyL3EDaHlBGg/view?usp=sharing)
+- [Big Sur 11.2.2 - OC 0.6.7](https://drive.google.com/file/d/1W7-wdEgWot7Ztqndl89rpyL3EDaHlBGg/view?usp=sharing)
+- [Alternative link - 11.2.2](https://1fichier.com/?oozi0qiw87hwng2kxlfu)
+- [Big Sur 11.1 - OC 0.6.4](https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing)
+- [Alternative link - 11.1](https://1fichier.com/?latap9wd4snffk0h4yon)
 
-[Alternative link - 11.2.2](https://1fichier.com/?oozi0qiw87hwng2kxlfu)
-
-[Big Sur 11.1 - OC 0.6.4](https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing)
-
-[Alternative link - 11.1](https://1fichier.com/?latap9wd4snffk0h4yon)
-
-- Close VMware Workstation
-- Download the Unlocker and run win-install.cmd as Admin
-- Open VMware Workstation and create a new VM
-- I will install the operating system later
-- Select **Apple Mac OS X** -> macOS 11.1
-- Choose a name for the Virtual Machine
-- I created a disk size of 200GB (reccomended is 80GB)
-- Finish 
-- After that modify the VM and attach the downloaded VMDK
-
-- (Always in the VM settings, select the Hard Disk (es. 200GB) -> Advanced -> Virtual Device Node and put it after the installer | If the installer is SATA 0:2 put the Hard Disk as SATA 0:3)
-
-- Now start the VM, install macOS and continue with the [Post-installation](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD#post-installation) :)
+1) Close VMware Workstation
+2)  Download the Unlocker and run win-install.cmd as Admin
+3) Open VMware Workstation and create a new VM
+4) I will install the operating system later
+5) Select **Apple Mac OS X** -> macOS 11.1
+6) Choose a name for the Virtual Machine
+7) I created a disk size of 200GB (reccomended is 80GB)
+ 
+- VM created
+8) After that modify the VM and attach the downloaded VMDK (macOS Installer)
+9) In the VM settings, select the Hard Disk (es. 200GB) -> Advanced -> Virtual Device Node and put it after the VMDK installer | ex. If the installer is SATA 0:2 put the Hard Disk as SATA 0:3)
+10) Now start the VM, install macOS and continue with the [Post-installation](https://github.com/Ken5998/OpenCore-VMware-Workstation-AMD#post-installation) :)
 
 ## Method 2
 ### First of all you need to prepare the USB that we will use to install macOS on VMware
