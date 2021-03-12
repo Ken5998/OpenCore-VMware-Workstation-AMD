@@ -24,8 +24,8 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
 ## Prerequisites
 * Real Mac or a VM with macOS
+* Pre-build VMDK for the #Method 1
 * USB 16GB for the #Method 2
-* Pre-build VMDK (macOS Big Sur 11.1) for the #Method 1
 * VMware Workstation 16 (Player and Workstation 15 should also work) 
 * Unlocker for VMware -> [unlocker](https://github.com/BDisp/unlocker)
 
