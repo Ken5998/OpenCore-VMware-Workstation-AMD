@@ -3,15 +3,15 @@
 	<img
     	width="200"
         alt="OpenCore"
-        src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615566933/opencore_vgx0qo.png">
+        src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615567350/oc_oufa6o.png">
 	<img
 		width="180"
 		alt="VMware"
 		src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615566933/vmware_lvynw7.png">
 	<img
-		width="300"
+		width="200"
 		alt="Ryzen"
-		src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615566933/ryzen_np52wz.svg">     
+		src="https://res.cloudinary.com/kasumovic-ch/image/upload/v1615567265/ryzen_ring_by_hero7x7_db9h978-fullview_wfbkap.png">     
 </h1>
 
 Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
