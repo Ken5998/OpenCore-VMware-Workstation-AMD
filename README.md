@@ -1,4 +1,4 @@
-# OpenCore 0.6.7 - VMware Workstation 16 - AMD Ryzen
+# OpenCore 0.6.9 - VMware Workstation 16 - AMD Ryzen
 <h1 align="center">
 	<img
     	width="200"
@@ -31,11 +31,13 @@ Install macOS Big Sur on Ryzen with VMware Workstation and OpenCore
 
 
 ## Method 1
-### Download the pre-build VMDK for the installer of macOS Big Sur 11.2.2 or 11.1 from here: 
-- [Big Sur 11.2.2 - OC 0.6.7](https://drive.google.com/file/d/1W7-wdEgWot7Ztqndl89rpyL3EDaHlBGg/view?usp=sharing)
-- [Alternative link - 11.2.2](https://1fichier.com/?oozi0qiw87hwng2kxlfu)
-- [Big Sur 11.1 - OC 0.6.4](https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing)
-- [Alternative link - 11.1](https://1fichier.com/?latap9wd4snffk0h4yon)
+### Download the pre-build VMDK for the installer of macOS Big Sur from here:
+- [Big Sur 11.3.1 - OC 0.6.9](https://drive.google.com/file/d/17i2_st8RhzaJeulT_J74uQG8qlPwXfta/view?usp=sharing)
+- [Alternative link - 11.3.1](https://1fichier.com/?rda84wog09jl2nh9n2u1)
+- [OLD - Big Sur 11.2.2 - OC 0.6.7](https://drive.google.com/file/d/1W7-wdEgWot7Ztqndl89rpyL3EDaHlBGg/view?usp=sharing)
+- [OLD - Alternative link - 11.2.2](https://1fichier.com/?oozi0qiw87hwng2kxlfu)
+- [OLD - Big Sur 11.1 - OC 0.6.4](https://drive.google.com/file/d/10qLPTret3KoV1bMRrcHNqKoN7mHvn2-6/view?usp=sharing)
+- [OLD - Alternative link - 11.1](https://1fichier.com/?latap9wd4snffk0h4yon)
 
 1) Close VMware Workstation
 2)  Download the Unlocker and run win-install.cmd as Admin
@@ -77,7 +79,7 @@ Download the Unlocker and run win-install.cmd as Admin
 
 Open VMware Workstation and create a new VM
 * I will install the operating system later
-* Select **Apple Mac OS X** -> macOS 11.0 or macOS 11.1
+* Select **Apple Mac OS X** -> macOS 11.1
 * Choose a name for the Virtual Machine
 * I created a disk size of 200GB (reccomended is 80GB)
 * Finish
